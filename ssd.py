@@ -30,9 +30,9 @@ def Image_SSD(src_img, search_img):
 
 if __name__ == '__main__':
     # 原图路径
-    srcImg_path = "C:\\Users\\PC\\Desktop\\SSD\\src.jpg"
+    srcImg_path = "left.jpg"
     # 搜索图像路径
-    searchImg_path = "C:\\Users\\PC\\Desktop\\SSD\\search.jpg"
+    searchImg_path = "right.jpg"
 
     src_img = cv2.imread(srcImg_path)
     search_img = cv2.imread(searchImg_path)

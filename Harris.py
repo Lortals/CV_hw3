@@ -7,7 +7,7 @@ block_size = 3
 sobel_size = 3
 k = 0.06
 
-image = cv2.imread('Figure\harris_corner.png')
+image = cv2.imread('right.jpg')
 
 print(image.shape)
 height = image.shape[0]
